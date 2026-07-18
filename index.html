@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BMI Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Adsense banner space -->
+  <div class="ad-banner"></div>
+
+  <div class="container">
+    <h1>BMI Calculator</h1>
+    <div class="calculator">
+      <label>Height (inches)</label>
+      <input type="number" id="height" placeholder="Enter your height" />
+
+      <label>Weight (kg)</label>
+      <input type="number" id="weight" placeholder="Enter your weight" />
+
+      <button onclick="calculateBMI()">Calculate BMI</button>
+
+      <div id="result"></div>
+      <p id="result"></p>
+
+<!-- BMI Category Table -->
+<div id="bmi-categories" class="bmi-table" style="display: none;">
+  <h3>Standard BMI Categories</h3>
+  <table>
+    <tr>
+      <th>Category</th>
+      <th>BMI Range</th>
+    </tr>
+    <tr>
+      <td>Underweight</td>
+      <td>Below 18.5</td>
+    </tr>
+    <tr>
+      <td>Normal weight</td>
+      <td>18.5 – 24.9</td>
+    </tr>
+    <tr>
+      <td>Overweight</td>
+      <td>25 – 29.9</td>
+    </tr>
+    <tr>
+      <td>Obesity Class I</td>
+      <td>30 – 34.9</td>
+    </tr>
+    <tr>
+      <td>Obesity Class II</td>
+      <td>35 – 39.9</td>
+    </tr>
+    <tr>
+      <td>Obesity Class III</td>
+      <td>40 and above</td>
+    </tr>
+  </table>
+</div>
+
+    </div>
+  </div>
+
+  <div class="blog-link">
+    <a href="blog.html">📖 Visit our Health & Fitness Blog</a>
+  </div>
+
+  <footer>
+    <p>
+      <a href="privacy.html">Privacy Policy</a> |
+      <a href="terms.html">Terms & Conditions</a> |
+      <a href="disclaimer.html">Disclaimer</a> |
+      <a href="contact.html">Contact Us</a>
+    </p>
+    <p>© 2025 BMI Calculator | All Rights Reserved</p>
+  </footer>  
+</body>
+</html>
